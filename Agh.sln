@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EF51D4DE-3656-4344-BC9D-A41956C65C67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{901177FE-5B6D-491D-ABE4-109334275F90}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\OneDrive\obsidian\code\agh-fw\agh\01- Project Structure.md = ..\..\..\..\OneDrive\obsidian\code\agh-fw\agh\01- Project Structure.md
+		..\..\..\..\OneDrive\obsidian\code\agh-fw\agh\02- BuildingBlocks.md = ..\..\..\..\OneDrive\obsidian\code\agh-fw\agh\02- BuildingBlocks.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{C8155B14-1B9D-47A5-92C5-F35028FC3500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agh.Domain.Base", "src\BuildingBlocks\Agh.Domain.Base\Agh.Domain.Base.csproj", "{C7B61714-BDCC-4185-A969-41B0497F5019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agh.Infrastructure.Base", "src\BuildingBlocks\Agh.Infrastructure.Base\Agh.Infrastructure.Base.csproj", "{4CC68BED-FF64-48A6-A223-2AC41BE43C73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{23DB9D25-5E24-411B-A5DA-EA8AA0932E21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contexts", "Contexts", "{84E78D19-1174-4377-930E-778A96816C31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleContext", "SampleContext", "{6F9C1B93-6301-40C9-BD9C-76E926885839}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentations", "Presentations", "{048CD5F0-7AB2-4040-8837-12BD14BFAA92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D1E085E9-6913-471A-8E12-E0F452825861}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C8155B14-1B9D-47A5-92C5-F35028FC3500} = {EF51D4DE-3656-4344-BC9D-A41956C65C67}
+		{C7B61714-BDCC-4185-A969-41B0497F5019} = {C8155B14-1B9D-47A5-92C5-F35028FC3500}
+		{4CC68BED-FF64-48A6-A223-2AC41BE43C73} = {C8155B14-1B9D-47A5-92C5-F35028FC3500}
+		{23DB9D25-5E24-411B-A5DA-EA8AA0932E21} = {EF51D4DE-3656-4344-BC9D-A41956C65C67}
+		{84E78D19-1174-4377-930E-778A96816C31} = {EF51D4DE-3656-4344-BC9D-A41956C65C67}
+		{6F9C1B93-6301-40C9-BD9C-76E926885839} = {84E78D19-1174-4377-930E-778A96816C31}
+		{048CD5F0-7AB2-4040-8837-12BD14BFAA92} = {EF51D4DE-3656-4344-BC9D-A41956C65C67}
+		{D1E085E9-6913-471A-8E12-E0F452825861} = {EF51D4DE-3656-4344-BC9D-A41956C65C67}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7B61714-BDCC-4185-A969-41B0497F5019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7B61714-BDCC-4185-A969-41B0497F5019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7B61714-BDCC-4185-A969-41B0497F5019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7B61714-BDCC-4185-A969-41B0497F5019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CC68BED-FF64-48A6-A223-2AC41BE43C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CC68BED-FF64-48A6-A223-2AC41BE43C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CC68BED-FF64-48A6-A223-2AC41BE43C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CC68BED-FF64-48A6-A223-2AC41BE43C73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
